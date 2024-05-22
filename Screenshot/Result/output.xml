@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-21T12:58:50.790093" rpa="false" schemaversion="5">
+<suite id="s1" name="Screenshot" source="C:\Python\Screenshot\Test_Screenshot\Screenshot.robot">
+<test id="s1-t1" name="Take a screenshot" line="8">
+<kw name="Set Screenshot Directory" owner="Screenshot">
+<arg>Result/screenshot</arg>
+<doc>Sets the directory where screenshots are saved.</doc>
+<status status="PASS" start="2024-05-21T12:58:50.856516" elapsed="0.000000"/>
+</kw>
+<kw name="Take Screenshot" owner="Screenshot">
+<msg time="2024-05-21T12:58:50.929912" level="INFO" html="true">&lt;a href="screenshot/image_2.jpg"&gt;&lt;img src="screenshot/image_2.jpg" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>image</arg>
+<doc>Takes a screenshot in JPEG format and embeds it into the log file.</doc>
+<status status="PASS" start="2024-05-21T12:58:50.856516" elapsed="0.073396"/>
+</kw>
+<status status="PASS" start="2024-05-21T12:58:50.855516" elapsed="0.075346"/>
+</test>
+<doc>Screenshot example</doc>
+<status status="PASS" start="2024-05-21T12:58:50.791996" elapsed="0.139862"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Screenshot">Screenshot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
